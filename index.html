@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Clocks</title>
+  <style>
+    /* Reset some default browser styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Basic styling for body */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    /* Container for the clocks */
+    .clocks-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+      padding: 20px;
+    }
+
+    /* Styling for individual clock items */
+    .clock-item {
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+      font-size: 1em;
+    }
+
+    /* Styling links */
+    .clock-item a {
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="clocks-container">
+    <!-- New York Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1731163820-su27-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc2YWM5NzVjNyIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="New York time zone" target="_blank" rel="nofollow">Current time in New York</a></p>
+        <div id="clock_block_cb672f76ac975c7"></div>
+      </div>
+    </div>
+
+    <!-- Chicago Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/Chicago/time" style="text-decoration: none" class="clock24" id="tz24-1731163867-c164-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc2ZGJmMWQ3NiIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Clock - Chicago" target="_blank" rel="nofollow">Current time in Chicago</a></p>
+        <div id="clock_block_cb672f76dbf1d76"></div>
+      </div>
+    </div>
+
+    <!-- Denver Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/Denver/time" style="text-decoration: none" class="clock24" id="tz24-1731163889-c175-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc2ZjFjYmE1NCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Denver what time is now" target="_blank" rel="nofollow">Denver time</a></p>
+        <div id="clock_block_cb672f76f1cba54"></div>
+      </div>
+    </div>
+
+    <!-- Los Angeles Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/Los-Angeles/time" style="text-decoration: none" class="clock24" id="tz24-1731163913-c1137-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc3MDkwYzFjZiIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Clock - Los Angeles" target="_blank" rel="nofollow">Los Angeles time</a></p>
+        <div id="clock_block_cb672f77090c1cf"></div>
+      </div>
+    </div>
+
+    <!-- Anchorage Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/Anchorage/time" style="text-decoration: none" class="clock24" id="tz24-1731163933-c118-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc3MWQ3MmY4MCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="time in Anchorage" target="_blank" rel="nofollow">Current time in Anchorage</a></p>
+        <div id="clock_block_cb672f771d72f80"></div>
+      </div>
+    </div>
+
+    <!-- Honolulu Clock -->
+    <div class="clock-item">
+      <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+        <p><a href="//24timezones.com/Honolulu/time" style="text-decoration: none" class="clock24" id="tz24-1731163958-c1103-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjcyZjc3MzZhMGZkOCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="what time Honolulu" target="_blank" rel="nofollow">Current time in Honolulu</a></p>
+        <div id="clock_block_cb672f7736a0fd8"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load the timezones script -->
+  <script src="//w.24timezones.com/l.js" async></script>
+</body>
+</html>
